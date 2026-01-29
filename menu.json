@@ -1,0 +1,88 @@
+{
+  "cafeName": "Tasty Bites Cafe",
+  "whatsappNumber": "919876543210",
+  "categories": [
+    {
+      "name": "Pizza",
+      "items": [
+        { "title": "Veg Pizza", "price": 150, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop", "description": "Fresh vegetables with mozzarella cheese" },
+        { "title": "Corn Pizza", "price": 170, "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop", "description": "Sweet corn with herbs and cheese" },
+        { "title": "Paneer Pizza", "price": 200, "image": "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=400&h=300&fit=crop", "description": "Spiced paneer cubes on pizza" },
+        { "title": "Chicken Pizza", "price": 220, "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop", "description": "Chicken chunks with BBQ sauce" },
+        { "title": "Crispy Chicken Pizza", "price": 240, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop", "description": "Crispy fried chicken on pizza" },
+        { "title": "Barbecue Chicken Pizza", "price": 250, "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop", "description": "Smoky BBQ chicken pizza" }
+      ]
+    },
+    {
+      "name": "Burger",
+      "items": [
+        { "title": "Veg Burger", "price": 80, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop", "description": "Fresh veggies with special sauce" },
+        { "title": "Paneer Burger", "price": 120, "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433c?w=400&h=300&fit=crop", "description": "Spiced paneer patty burger" },
+        { "title": "Special Paneer Burger", "price": 150, "image": "https://images.unsplash.com/photo-1521391405205-0743b6c700f1?w=400&h=300&fit=crop", "description": "Premium paneer with extra cheese" },
+        { "title": "Chicken Burger", "price": 140, "image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400&h=300&fit=crop", "description": "Grilled chicken burger" },
+        { "title": "Crispy Chicken Burger", "price": 160, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&h=300&fit=crop", "description": "Fried crispy chicken burger" }
+      ]
+    },
+    {
+      "name": "Rice",
+      "items": [
+        { "title": "Jeera Rice", "price": 100, "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop", "description": "Basmati rice with cumin seeds" },
+        { "title": "Veg Biryani", "price": 150, "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&h=300&fit=crop", "description": "Flavorful vegetable biryani" },
+        { "title": "Chicken Biryani", "price": 200, "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8c3e?w=400&h=300&fit=crop", "description": "Hyderabadi style chicken biryani" },
+        { "title": "Fried Rice", "price": 120, "image": "https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=400&h=300&fit=crop", "description": "Mixed vegetable fried rice" }
+      ]
+    },
+    {
+      "name": "Noodles",
+      "items": [
+        { "title": "Veg Noodles", "price": 110, "image": "https://images.unsplash.com/photo-1559314809-2b99056a8c4a?w=400&h=300&fit=crop", "description": "Stir fried vegetable noodles" },
+        { "title": "Chicken Noodles", "price": 160, "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop", "description": "Chicken with hakka noodles" },
+        { "title": "Schezwan Noodles", "price": 130, "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop", "description": "Spicy schezwan style noodles" }
+      ]
+    },
+    {
+      "name": "Tandoori",
+      "items": [
+        { "title": "Paneer Tikka", "price": 180, "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop", "description": "Grilled paneer cubes" },
+        { "title": "Chicken Tikka", "price": 220, "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop", "description": "Tandoor grilled chicken pieces" },
+        { "title": "Tandoori Roti", "price": 20, "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop", "description": "Traditional tandoor baked bread" }
+      ]
+    },
+    {
+      "name": "Alfaham",
+      "items": [
+        { "title": "Chicken Alfaham", "price": 250, "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop", "description": "Arabian style grilled chicken" },
+        { "title": "Mutton Alfaham", "price": 320, "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400&h=300&fit=crop", "description": "Spicy grilled mutton" }
+      ]
+    },
+    {
+      "name": "Mojito",
+      "items": [
+        { "title": "Classic Mojito", "price": 90, "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&h=300&fit=crop", "description": "Fresh mint with lime" },
+        { "title": "Ocean Blue Mojito", "price": 110, "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&h=300&fit=crop", "description": "Blue curacao mojito" },
+        { "title": "Green Apple Mojito", "price": 110, "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&h=300&fit=crop", "description": "Fresh green apple flavor" },
+        { "title": "Watermelon Mojito", "price": 100, "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&h=300&fit=crop", "description": "Refreshing watermelon mojito" },
+        { "title": "Pomegranate Mojito", "price": 120, "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&h=300&fit=crop", "description": "Pomegranate seeds with mint" },
+        { "title": "Blue Berry Mojito", "price": 120, "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=300&fit=crop", "description": "Blueberry infused mojito" },
+        { "title": "Lemon Mojito", "price": 90, "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400&h=300&fit=crop", "description": "Classic lemon mojito" }
+      ]
+    },
+    {
+      "name": "Milk Shake",
+      "items": [
+        { "title": "Apple Shake", "price": 100, "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=400&h=300&fit=crop", "description": "Fresh apple milkshake" },
+        { "title": "Rose Milk", "price": 80, "image": "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?w=400&h=300&fit=crop", "description": "Rose flavored milk" },
+        { "title": "Chocolate Shake", "price": 110, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Rich chocolate milkshake" },
+        { "title": "Kit Kat Shake", "price": 130, "image": "https://images.unsplash.com/photo-1629385694381-8cf3f0a686c6?w=400&h=300&fit=crop", "description": "KitKat chocolate shake" },
+        { "title": "Dry Fruit Shake", "price": 150, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Mixed dry fruits shake" },
+        { "title": "Pista Shake", "price": 120, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Pistachio flavored shake" },
+        { "title": "Sapotta Shake", "price": 110, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Chikoo sapotta shake" },
+        { "title": "Dragon Fruit Shake", "price": 140, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Exotic dragon fruit shake" },
+        { "title": "Papaya Shake", "price": 90, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Fresh papaya milkshake" },
+        { "title": "Dates Shake", "price": 130, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Dates and milk shake" },
+        { "title": "Pomegranate Shake", "price": 120, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Pomegranate seeds shake" },
+        { "title": "Red Banana Shake", "price": 100, "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop", "description": "Red banana special shake" }
+      ]
+    }
+  ]
+}

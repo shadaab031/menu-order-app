@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Cafe Menu Ordering</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 id="cafeName">Tasty Bites Cafe</h1>
+            <p>Browse our menu & order directly via WhatsApp</p>
+             <i class="fas fa-clock"></i> Open: 3:00PM - 11:00PM
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container main-container">
+        <!-- Left Column: Menu -->
+        <div class="left-column">
+            <!-- Category Tabs -->
+            <div class="category-tabs" id="categoryTabs">
+                <!-- Categories will be loaded dynamically -->
+            </div>
+
+            <!-- Menu Items Grid -->
+            <div class="menu-items" id="menuItems">
+                <!-- Menu items will be loaded dynamically -->
+            </div>
+        </div>
+
+        <!-- Right Column: Order & Address -->
+        <div class="right-column">
+            <!-- Order Summary -->
+            <div class="order-summary-card">
+                <div class="order-summary-header">
+                    <h2><i class="fas fa-shopping-cart"></i> Your Order</h2>
+                    <div class="item-count" id="itemCount">0 items</div>
+                </div>
+                
+                <div class="order-items-container">
+                    <div class="order-items" id="orderItems">
+                        <div class="empty-order" id="emptyOrder">
+                            <i class="fas fa-coffee"></i>
+                            <p>No items selected yet. Add items from the menu.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grand-total">
+                    <span>Total Amount:</span>
+                    <span id="grandTotal">₹0</span>
+                </div>
+                
+                <div class="clear-order-container" id="clearOrderContainer" style="display: none;">
+                    <button class="clear-order-btn" id="clearOrderBtn">
+                        <i class="fas fa-trash-alt"></i> Clear All Items
+                    </button>
+                </div>
+            </div>
+
+            <!-- Delivery Address -->
+            <div class="delivery-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-map-marker-alt"></i> Delivery Address</h2>
+                    <span class="required-badge">Required</span>
+                </div>
+                <textarea 
+                    class="address-input" 
+                    id="deliveryAddress" 
+                    placeholder="Enter your complete delivery address..."
+                    required
+                ></textarea>
+                <div class="address-error" id="addressError">Please enter your delivery address</div>
+                
+                <div class="address-tips">
+                    <!-- <p><i class="fas fa-lightbulb"></i> Include: House no., Street, Landmark, City, Pincode</p> -->
+                     <p><i class="fas fa-lightbulb"></i> Include: House no., Street,Landmark,GoogleMap link, Delivery is available only in Pernambut ,Pincode -635810</p>
+                </div>
+            </div>
+
+            <!-- Order Button -->
+            <div class="order-action">
+                <button class="whatsapp-btn" id="whatsappBtn">
+                    <i class="fab fa-whatsapp"></i>
+                    Place Order via WhatsApp
+                </button>
+                <p class="order-note">
+                    <i class="fas fa-info-circle"></i> Minimum 1 item required
+                </p>
+            </div>
+
+            <!-- Order Instructions -->
+            <div class="instructions">
+                <h3><i class="fas fa-info-circle"></i> How to Order</h3>
+                <ol>
+                    <li>Select items and quantities from the menu</li>
+                    <li>Review your order in the right panel</li>
+                    <li>Enter your delivery address</li>
+                    <li>Click "Place Order via WhatsApp"</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Tasty Bites Cafe Menu Ordering System &copy; <span id="currentYear"></span></p>
+            <p class="footer-contact">
+                <!-- <i class="fas fa-phone"></i> Call: +91 9876543210 |  -->
+               
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
